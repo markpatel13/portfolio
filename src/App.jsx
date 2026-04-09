@@ -8,6 +8,7 @@ import ExperienceSection from './components/sections/ExperienceSection'
 import TechStack from './components/sections/TechStack'
 import Contact from './components/sections/Contact'
 import AskAboutMe from './components/sections/Askaboutme'
+import Footer from './components/sections/Footer'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
     {/* <ExperienceSection/> */}
     <AskAboutMe/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

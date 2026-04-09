@@ -256,21 +256,25 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
+  // {
+  //   name: "insta",
+  //   imgPath: "/images/insta.png",
+  //   link: "https://www.instagram.com",
+  // },
+  // {
+  //   name: "fb",
+  //   imgPath: "/images/fb.png",
+  //   link: "https://www.facebook.com",
+  // },
+  // {
+  //   name: "x",
+  //   imgPath: "/images/x.png",
+  //   link: "https://www.twitter.com",
+  // },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/patel-mark-7b813928b",
   },
 ];
 
