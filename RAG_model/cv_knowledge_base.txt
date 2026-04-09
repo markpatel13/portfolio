@@ -1,0 +1,151 @@
+## Profile
+
+- Full name: Mark Ramanbhai Patel
+- Email: markpatel044@gmail.com
+- Phone: +91 7043999134
+- Date of Birth: 04/09/2005
+- Age: 20
+- LinkedIn: https://www.linkedin.com/in/patel-mark-7b813928b/
+- GitHub: https://github.com/markpatel13
+- Current location: Navsari, Gujarat, India
+- Role focus: AI/ML focused Computer Science student
+- Status: Open to building AI/ML, data engineering, backend, analytics, and RAG-based projects
+- Languages spoken: English, Gujarati, Hindi
+
+## Professional Summary
+
+Mark Patel is a Computer Science and Engineering student with an AI/ML-oriented profile. His work combines machine learning, ETL pipelines, analytics dashboards, backend APIs, and applied computer vision. He has built project workflows involving prediction systems, real-time dashboards, data warehousing, and model-backed applications, and is actively exploring RAG agents and vector databases.
+
+## Skills
+
+### Programming Languages
+- Python
+- SQL
+- JavaScript
+- C
+- C++
+
+### Backend and App Development
+- FastAPI
+- Node.js
+- Streamlit
+- React.js
+- Tailwind CSS
+
+### AI/ML and Data Engineering
+- PyTorch
+- Apache Airflow
+- ETL pipelines
+- Snowflake
+- XGBoost
+- YOLOv8
+- Synthetic data generation
+- Prediction modeling
+
+### Databases and Vector Systems
+- PostgreSQL
+- MongoDB
+- Supabase
+- Pinecone
+- ChromaDB
+- Data warehouse concepts
+
+### Tools and Platforms
+- GitHub
+- VS Code
+- Docker
+- Jira
+- n8n
+- Figma
+- Blender 3D
+
+### Core Concepts
+- Database Management Systems
+- Data Structures and Algorithms
+- Real-time data flow
+- Secure access control
+- Dashboard integration
+
+## Experience
+
+### React Intern — SparkstoIdeas
+- Duration: May 2025 to June 2025
+- Built a user-friendly web interface for an SPA booking application using React.js and Tailwind CSS.
+- Gained practical frontend development experience in UI implementation and usability-focused interface building.
+
+## Projects
+
+### SmartCity360
+- Date: September 2024
+- Role: Project Leader; backend contributor
+- Domain: Smart city complaint management / civic-tech platform
+- Coordinated development flow, documentation, and reporting.
+- Designed and managed Supabase backend components.
+- Worked on database schema design.
+- Managed image storage buckets.
+- Implemented secure access control.
+- Integrated real-time complaint data flow between the mobile application and the admin dashboard.
+- Tech stack: Supabase backend, database schema design, storage buckets, role-based access control, realtime sync between app and dashboard.
+- Keywords: smartcity360, supabase backend, real-time complaint dashboard, civic tech app, project leader
+
+### Football Performance and Injury Prediction System
+- Date: November 2025
+- Domain: Sports analytics / injury and performance prediction
+- Preprocessed data using queries.
+- Generated synthetic data for modeling workflows.
+- Stored processed data into a data warehouse.
+- Built ML models for performance prediction and injury risk prediction.
+- Stored model outputs in a database.
+- Exposed results to a Streamlit application through FastAPI endpoints.
+- Tech stack: ETL workflow, query-based preprocessing, synthetic data generation, data warehouse pipeline, ML prediction services, FastAPI, Streamlit.
+- Keywords: football analysis, injury prediction, performance prediction, sports analytics, fastapi streamlit ml
+
+### Smart Traffic Management
+- Date: February 2026
+- Domain: Intelligent traffic optimization / computer vision / simulation
+- Built an AI-based traffic system using YOLOv8 for class-wise vehicle detection and counting.
+- Built an XGBoost model to predict optimal traffic signal timing.
+- Integrated SUMO simulation into a Streamlit dashboard for traffic-flow visualization.
+- Tech stack: YOLOv8 object detection, vehicle classification and counting, XGBoost prediction, traffic signal optimization, SUMO traffic simulation, interactive visualization dashboard.
+- Keywords: smart traffic management, yolov8 vehicle detection, xgboost traffic timing, sumo simulation, streamlit traffic dashboard
+
+### Spa Booking Platform
+- Type: Full-stack web application
+- Features: Browse spas and hotels, secure authentication with Clerk, booking system for spa services and rooms, user dashboard, admin dashboard, responsive design, ratings and reviews, newsletter subscription.
+- Tech stack: React 19, Vite 7, TailwindCSS 4, React Router 7, Clerk.
+- Keywords: spa booking, clerk auth, hotel and spa dashboard, responsive booking app, admin panel
+
+### Imagify — Text-to-Image Generator SaaS
+- Type: Full-stack AI SaaS application
+- Role: Backend developer
+- Features: Text prompt to image generation, user authentication with JWT, credit-based system with Razorpay payments, image history and account dashboard, responsive UI, secure file uploads and storage.
+- Tech stack: React 19, Vite, TailwindCSS, Node.js, Express, MongoDB, Mongoose, JWT, Bcrypt, Razorpay, Nodemailer.
+- API endpoints: POST /api/user/register, POST /api/user/login, GET /api/user/credits, POST /api/user/pay-razor, POST /api/image/generate-image, GET /api/image/user-images.
+- Keywords: imagify, text to image saas, razorpay credits, jwt image generation, backend developer
+
+### LegalAI — Indian Constitution Assistant
+- Type: RAG-based legal assistant
+- Features: Semantic search over Indian Constitution text, local LLM via Ollama, source citations for answers, confidence scores for retrieved chunks, query history.
+- Pipeline: PDF split into 1000-character chunks with 200-character overlap, 384-dimension embeddings with all-MiniLM-L6-v2, stored in ChromaDB, top 5 matches fed to Ollama for answer generation.
+- Tech stack: Streamlit, SentenceTransformers, ChromaDB, Ollama, PyMuPDF, pdfplumber.
+- Keywords: legalai, constitution assistant, rag legal assistant, chromadb ollama, source citations
+
+## Education
+
+### Charusat University of Gujarat, India
+- Degree: Bachelor of Technology — Computer Science and Engineering
+- Duration: 2023 to 2027
+- Current CGPA: 9.10
+
+### St. Francis of Assisi Convent High School
+- Class XII — Percentage: 79.85 (2022–2023)
+- Class X — Percentage: 77.67 (2020–2021)
+
+## Achievements
+
+- Top 10 among 60 teams in Internal Hackathon for SIH in 2024 and 2025.
+- Third rank in Class XII boards at school.
+- 5-star coder in C++ on HackerRank.
+- Top 5 percent in NPTEL Database Management course.
+- Runners-up in inter-college Kabaddi.
+- IBM Machine Learning Professional Certificate on Coursera in 2025.
