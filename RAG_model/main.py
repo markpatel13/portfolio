@@ -27,16 +27,39 @@ TOP_K             = 5
 # ────────────────────────────────────────────────────────────────────────────
 
 # ── Initialise clients (once at startup) ────────────────────────────────────
-print("⏳  Loading embedding model…")
-embedder = SentenceTransformer(EMBED_MODEL)
+# print("⏳  Loading embedding model…")
+# embedder = SentenceTransformer(EMBED_MODEL)
 
-print("⏳  Connecting to Pinecone…")
-pc    = Pinecone(api_key=PINECONE_API_KEY)
-index = pc.Index(PINECONE_INDEX)
+# print("⏳  Connecting to Pinecone…")
+# pc    = Pinecone(api_key=PINECONE_API_KEY)
+# index = pc.Index(PINECONE_INDEX)
 
-groq_client = Groq(api_key=GROQ_API_KEY)
-print("✅  All clients ready.")
-# ────────────────────────────────────────────────────────────────────────────
+# groq_client = Groq(api_key=GROQ_API_KEY)
+# print("✅  All clients ready.")
+# # ────────────────────────────────────────────────────────────────────────────
+# Global variables (initialize to None)
+embedder = None
+index = None
+groq_client = None
+
+@app.on_event("startup")
+async def startup_event():
+    """Load models after app starts."""
+    global embedder, index, groq_client
+    print("⏳  Loading embedding model…")
+    from sentence_transformers import SentenceTransformer
+    embedder = SentenceTransformer(EMBED_MODEL)
+    
+    print("⏳  Connecting to Pinecone…")
+    from pinecone import Pinecone
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+    index = pc.Index(PINECONE_INDEX)
+    
+    print("⏳  Connecting to Groq…")
+    from groq import Groq
+    groq_client = Groq(api_key=GROQ_API_KEY)
+    print("✅  All clients ready.")
+
 
 app = FastAPI(title="Mark's Portfolio RAG API", version="1.0.0")
 
