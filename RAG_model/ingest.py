@@ -53,7 +53,7 @@ def main():
 
     print("⏳  Loading embedding model…")
     model = SentenceTransformer(EMBED_MODEL)
-    embeddings = model.encode(chunks, show_progress_bar=True, convert_to_list=True)
+    embeddings = model.encode(chunks, show_progress_bar=True)
     print(f"✅  Embeddings generated — dim={len(embeddings[0])}")
 
     print("⏳  Connecting to Pinecone…")

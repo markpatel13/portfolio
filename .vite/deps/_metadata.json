@@ -1,0 +1,94 @@
+{
+  "hash": "9048575c",
+  "configHash": "0bf1a21c",
+  "lockfileHash": "e3712b63",
+  "browserHash": "c857a804",
+  "optimized": {
+    "@gsap/react": {
+      "src": "../../node_modules/@gsap/react/src/index.js",
+      "file": "@gsap_react.js",
+      "fileHash": "f42419f1",
+      "needsInterop": false
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "19451668",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "79c5306c",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "61fd1bbf",
+      "needsInterop": false
+    },
+    "gsap/all": {
+      "src": "../../node_modules/gsap/all.js",
+      "file": "gsap_all.js",
+      "fileHash": "8e04e956",
+      "needsInterop": false
+    },
+    "gsap/ScrollTrigger": {
+      "src": "../../node_modules/gsap/ScrollTrigger.js",
+      "file": "gsap_ScrollTrigger.js",
+      "fileHash": "2891e714",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "db9069fb",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "6cde9ad6",
+      "needsInterop": true
+    },
+    "react-responsive": {
+      "src": "../../node_modules/react-responsive/dist/esm/index.js",
+      "file": "react-responsive.js",
+      "fileHash": "d0d25d27",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "hls-2PAO3BKI": {
+      "file": "hls-2PAO3BKI.js"
+    },
+    "vision_bundle-SQYBGID6": {
+      "file": "vision_bundle-SQYBGID6.js"
+    },
+    "chunk-CM424YXH": {
+      "file": "chunk-CM424YXH.js"
+    },
+    "chunk-TXGQJFWJ": {
+      "file": "chunk-TXGQJFWJ.js"
+    },
+    "chunk-36UXRTPD": {
+      "file": "chunk-36UXRTPD.js"
+    },
+    "chunk-Y42GGIMC": {
+      "file": "chunk-Y42GGIMC.js"
+    },
+    "chunk-6YSHWSVZ": {
+      "file": "chunk-6YSHWSVZ.js"
+    },
+    "chunk-AH3K6ISD": {
+      "file": "chunk-AH3K6ISD.js"
+    },
+    "chunk-ULSRCYB6": {
+      "file": "chunk-ULSRCYB6.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
